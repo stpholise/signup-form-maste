@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+    integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section class="lt" id="lt">
+      <h1 class="m-heading">Learn to code by watching others
+      </h1>
+      <p class="m-text">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    <section class="rt" id="rt">
+      <div class="top" id="top">
+        Try it free 7 days <span class="light-text"> then $20/mo. thereafter</span>
+      </div>
+      <form action="#" id="form" class="form">
+        <div class="input-box ">
+          <input type="text" class="fname input" id="fname" placeholder="First-Name">
+          <span class="fname-errMsg"></span>
+          <img class="err-ic" src="images/icon-error.svg" alt="err-icon">
+
+        </div>
+        <div class="input-box">
+          <input type="text" class="lname input" id="lname" placeholder="Last-Name">
+          <span class="lname-errMsg"></span>
+          <img class="err-ic" src="images/icon-error.svg" alt="err-icon">
+
+
+        </div>
+        <div class="input-box">
+          <input type="text" class="email input" id="email" placeholder="Email">
+          <span class="Email-errMsg"></span>
+          <img class="err-ic" src="images/icon-error.svg" alt="err-icon">
+
+
+        </div>
+
+        <div class="input-box">
+          <input type="password" class="password input" id="password" placeholder="Password">
+          <span class="password-errMsg"></span>
+          <img class="err-ic" src="images/icon-error.svg" alt="err-icon">
+
+        </div>
+        <button type="submit" class="submit-btn">Claim your free trial</button>
+
+        <p class="form-foot"><span class="light-text">By clicking the button, you are agreeing to our</span><a href="#"
+            class="tc"> Terms
+            and Services</a>
+        </p>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Olise Stephen</a>.
+    </p>
+  </footer>
+  <script src="style/script.js"></script>
+</body>
+
+</html>
